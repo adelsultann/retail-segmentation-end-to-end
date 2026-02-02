@@ -114,7 +114,8 @@ The dashboard connects to the **Gold layer only** (no Bronze/Silver used in repo
 
 Star schema with relationships between dims and facts + segmentation table.
 
-> `/assets/powerbi-model.png`
+![Alt text](assets/powerbi-model.png")
+
 
 ### Pages
 
