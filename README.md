@@ -139,10 +139,9 @@ Star schema with relationships between dims and facts + segmentation table.
 
 > Add your screenshots here:
 
-* `/assets/overview.png`
-* `/assets/segmentation-deep-dive.png`
-* `/assets/category-x-segment.png`
-* `/assets/at-risk-target-list.png`
+![Alt text for the image](assets/overview.png.png)
+![Alt text for the image](assets/at-risk-target-list.png.png)
+![Alt text for the image](assets/category-x-segment.png.png)
 
 ---
 
