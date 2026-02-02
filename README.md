@@ -137,7 +137,7 @@ Star schema with relationships between dims and facts + segmentation table.
 
 * Customer list (recency, frequency, monetary) filtered to At Risk / Lost
 
-> Add your screenshots here:
+ screenshots :
 
 ![Alt text for the image](assets/overview.png.png)
 ![Alt text for the image](assets/at-risk-target-list.png.png)
