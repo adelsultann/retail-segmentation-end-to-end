@@ -35,7 +35,11 @@ CREATE TABLE gold.customer_segmentation_snapshot (
 );
 GO
 
-DECLARE @as_of DATE = CAST(GETDATE() AS DATE);
+DECLARE @as_of DATE;
+
+SELECT @as_of = MAX(d.[date])
+FROM gold.fact_orders fo
+JOIN gold.dim_date d ON d.date_key = fo.purchase_date_key;
 
 ;WITH base AS (
     SELECT
